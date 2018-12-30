@@ -1,0 +1,8 @@
+
+**** Trace file opened at 20181227 180739 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+
+
+<* RfcAccept
+PROGID=JCO_SERVER GWHOST=sap752sp01.southeastasia.cloudapp.azure.com GWSERV=sapgw00 TRACE=1 >Thu Dec 27 18:07:39,858<
+
+	>> CPIC native call SAP_CMREGTP3 [0] convid: <initial>  18:07:39,859

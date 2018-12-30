@@ -1,0 +1,44 @@
+
+**** Trace file opened at 20181228 141248 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+
+
+<* RfcAccept
+PROGID=JCO_SERVER GWHOST=sap752sp01.southeastasia.cloudapp.azure.com GWSERV=sapgw00 TRACE=1 >Fri Dec 28 14:12:48,888<
+
+	>> CPIC native call SAP_CMREGTP3 [0] convid: <initial>  14:12:48,890
+	<< CPIC native call SAP_CMREGTP3 [17] convid: <initial> rc: 0  14:12:49,350
+	>> CPIC native call SAP_CMACCPTP3(-2) [17] convid: <initial>  14:12:49,350
+	<< CPIC native call SAP_CMACCPTP3(-2) [17] convid:          rc: 0  14:12:49,351
+cosaccepttp: SAP_CMACCPTP3(waitTime=-2, conv_id=        , niHandle=17) returns: 0
+>>>> [1] <accepted> REG <ac: 1> >>> ACCEPT (        )
+<* RfcAccept successful
+	handle = 1 *>
+
+
+
+<* RfcAccept
+PROGID=JCO_SERVER GWHOST=sap752sp01.southeastasia.cloudapp.azure.com GWSERV=sapgw00 TRACE=1 >Fri Dec 28 14:20:13,258<
+
+	>> CPIC native call SAP_CMREGTP3 [0] convid: <initial>  14:20:13,258
+	<< CPIC native call SAP_CMREGTP3 [18] convid: <initial> rc: 0  14:20:13,778
+	>> CPIC native call SAP_CMACCPTP3(-2) [18] convid: <initial>  14:20:13,778
+	<< CPIC native call SAP_CMACCPTP3(-2) [18] convid:          rc: 0  14:20:13,779
+cosaccepttp: SAP_CMACCPTP3(waitTime=-2, conv_id=        , niHandle=18) returns: 0
+>>>> [1] <accepted> REG <ac: 1> >>> ACCEPT (        )
+<* RfcAccept successful
+	handle = 1 *>
+
+
+
+<* RfcAccept
+PROGID=JCO_SERVER GWHOST=sap752sp01.southeastasia.cloudapp.azure.com GWSERV=sapgw00 TRACE=1 >Fri Dec 28 14:33:43,355<
+
+	>> CPIC native call SAP_CMREGTP3 [0] convid: <initial>  14:33:43,356
+	<< CPIC native call SAP_CMREGTP3 [19] convid: <initial> rc: 0  14:33:43,617
+	>> CPIC native call SAP_CMACCPTP3(-2) [19] convid: <initial>  14:33:43,617
+	<< CPIC native call SAP_CMACCPTP3(-2) [19] convid:          rc: 0  14:33:43,617
+cosaccepttp: SAP_CMACCPTP3(waitTime=-2, conv_id=        , niHandle=19) returns: 0
+>>>> [1] <accepted> REG <ac: 1> >>> ACCEPT (        )
+<* RfcAccept successful
+	handle = 1 *>
+

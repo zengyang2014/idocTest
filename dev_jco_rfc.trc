@@ -1,0 +1,4650 @@
+
+**** Error file opened at 20181225 113722 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 11:37:22,022<    RfcException:
+	message: Connect to message server on host bcemain failed
+Connection parameters: TYPE=B DEST=BCE MSHOST=bcemain R3NAME=BCE GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       service 'sapmsBCE' unknown
+TIME        Tue Dec 25 11:37:21 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      niuxi.c
+LINE        1814
+DETAIL      NiPGetServByName: 'sapmsBCE' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 113916 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 11:39:16,740<    RfcException:
+	message: Connect to message server on host bcemain failed
+Connection parameters: TYPE=B DEST=BCE MSHOST=bcemain R3NAME=BCE GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       service 'sapmsBCE' unknown
+TIME        Tue Dec 25 11:39:16 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      niuxi.c
+LINE        1814
+DETAIL      NiPGetServByName: 'sapmsBCE' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Tue Dec 25 11:45:57,176<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:45:57 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64903
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 11:45:57,219<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:45:57 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64903
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 11:45:57,219<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:45:57 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64903
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 11:45:57,220<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 11:52:34,930<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:52:34 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:52570
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 11:52:34,935<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:52:34 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:52570
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 11:52:34,935<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:52:34 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:52570
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 11:52:34,936<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 11:59:15,771<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:59:15 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:54572
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 11:59:15,773<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:59:15 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:54572
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 11:59:15,773<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 11:59:15 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:54572
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 11:59:15,773<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 14:02:10,178<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:02:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:58420
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 14:02:10,182<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:02:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:58420
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 14:02:10,183<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:02:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:58420
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 14:02:10,183<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 14:09:17,408<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:09:17 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60906
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     5
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 14:09:17,409<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:09:17 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60906
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     5
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 14:09:17,409<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:09:17 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60906
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     5
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 14:09:17,409<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 14:20:15,901<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:20:15 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:65227
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     6
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 14:20:15,908<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:20:15 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:65227
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     6
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 14:20:15,909<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:20:15 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:65227
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     6
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 14:20:15,909<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 14:28:49,472<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:28:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55493
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     7
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 14:28:49,474<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:28:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55493
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     7
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 14:28:49,474<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:28:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55493
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 14:28:49,474<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 14:39:07,736<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:39:07 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60430
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     8
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 14:39:07,739<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:39:07 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60430
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     8
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 14:39:07,739<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:39:07 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60430
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     8
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 14:39:07,739<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 14:47:50,200<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:47:50 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:50042
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     9
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 14:47:50,202<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:47:50 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:50042
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     9
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 14:47:50,202<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 14:47:50 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:50042
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     9
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 14:47:50,203<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 15:00:12,201<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:00:12 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55229
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     10
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 15:00:12,208<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:00:12 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55229
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     10
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 15:00:12,208<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:00:12 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55229
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     10
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 15:00:12,208<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 15:07:32,023<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:07:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:62567
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     11
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 15:07:32,026<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:07:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:62567
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     11
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 15:07:32,028<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:07:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:62567
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     11
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 15:07:32,030<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 15:15:38,262<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:15:38 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:50473
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     12
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 15:15:38,263<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:15:38 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:50473
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     12
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 15:15:38,263<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:15:38 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:50473
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     12
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 15:15:38,264<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 15:23:32,721<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:23:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55123
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     13
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 15:23:32,726<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:23:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55123
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     13
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 15:23:32,726<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:23:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55123
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     13
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 15:23:32,726<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 15:32:07,772<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:32:07 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:59643
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     14
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 15:32:07,773<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:32:07 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:59643
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     14
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 15:32:07,774<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:32:07 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:59643
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     14
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 15:32:07,774<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 15:50:26,763<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       internal error
+TIME        Tue Dec 25 15:50:26 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -1
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead
+SYSTEM CALL recv
+ERRNO       50
+ERRNO TEXT  Network is down
+COUNTER     15
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 15:50:26,771<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       internal error
+TIME        Tue Dec 25 15:50:26 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -1
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead
+SYSTEM CALL recv
+ERRNO       50
+ERRNO TEXT  Network is down
+COUNTER     15
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 15:50:26,772<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       internal error
+TIME        Tue Dec 25 15:50:26 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -1
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead
+SYSTEM CALL recv
+ERRNO       50
+ERRNO TEXT  Network is down
+COUNTER     15
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 15:50:26,772<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 15:57:10,891<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:57:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:58022
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     16
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 15:57:10,893<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:57:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:58022
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     16
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 15:57:10,893<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 15:57:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:58022
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     16
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 15:57:10,894<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Tue Dec 25 16:03:49,165<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 16:03:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:62105
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     17
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 16:03:49,166<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 16:03:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:62105
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     17
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 16:03:49,166<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner
+            'sap752sp01.southeastasia.cloudapp.azure.com:sapgw00' broken
+TIME        Tue Dec 25 16:03:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:62105
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     17
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 16:03:49,167<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181225 160437 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:04:37,408<    RfcException:
+	message: Connect to message server on host bcemain failed
+Connection parameters: TYPE=B DEST=BCE MSHOST=bcemain R3NAME=BCE GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       service 'sapmsBCE' unknown
+TIME        Tue Dec 25 16:04:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      niuxi.c
+LINE        1814
+DETAIL      NiPGetServByName: 'sapmsBCE' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 160527 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:05:27,561<    RfcException:
+	message: Connect to message server on host bcemain failed
+Connection parameters: TYPE=B DEST=BCE MSHOST=bcemain R3NAME=BCE GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       service 'sapmsBCE' unknown
+TIME        Tue Dec 25 16:05:27 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      niuxi.c
+LINE        1814
+DETAIL      NiPGetServByName: 'sapmsBCE' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 161425 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:14:25,930<    RfcException:
+	message: Connect to message server on host vhcalnplci failed
+Connection parameters: TYPE=B DEST=BCE MSHOST=vhcalnplci R3NAME=BCE GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       service 'sapmsBCE' unknown
+TIME        Tue Dec 25 16:14:25 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      niuxi.c
+LINE        1814
+DETAIL      NiPGetServByName: 'sapmsBCE' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 162708 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:27:08,669<    RfcException:
+	message: Parameter connection type ('type') value 'T' is invalid
+	return code: RFC_INVALID_PARAMETER (19)
+	error group: 101
+	key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:344)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1316)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1346)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:704)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:72)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:112)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:433)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:380)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:1094)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:29)
+	at com.sap.conn.jco.rt.RfcDestination.initRepository(RfcDestination.java:1049)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:1193)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at com.sap.conn.jco.rt.DefaultServer.update(DefaultServer.java:220)
+	at com.sap.conn.jco.rt.DefaultServer.<init>(DefaultServer.java:117)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServer.<init>(DefaultJCoIDocServer.java:47)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServerFactory.createServer(DefaultJCoIDocServerFactory.java:17)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServerFactory.createServer(DefaultJCoIDocServerFactory.java:13)
+	at com.sap.conn.jco.rt.DefaultServerManager.getServer(DefaultServerManager.java:104)
+	at com.sap.conn.jco.rt.StandaloneServerFactory.update(StandaloneServerFactory.java:362)
+	at com.sap.conn.jco.rt.StandaloneServerFactory.getServerInstance(StandaloneServerFactory.java:175)
+	at com.sap.conn.idoc.jco.JCoIDoc.getServer(JCoIDoc.java:322)
+	at IDocServerExample.main(IDocServerExample.java:8)
+
+
+
+**** Error file opened at 20181225 163028 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:30:28,774<    RfcException:
+	message: Parameter connection type ('type') value 'T' is invalid
+	return code: RFC_INVALID_PARAMETER (19)
+	error group: 101
+	key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:344)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1316)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1346)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:704)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:72)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:112)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:433)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:380)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:1094)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:29)
+	at com.sap.conn.jco.rt.RfcDestination.initRepository(RfcDestination.java:1049)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:1193)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at com.sap.conn.jco.rt.DefaultServer.update(DefaultServer.java:220)
+	at com.sap.conn.jco.rt.DefaultServer.<init>(DefaultServer.java:117)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServer.<init>(DefaultJCoIDocServer.java:47)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServerFactory.createServer(DefaultJCoIDocServerFactory.java:17)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServerFactory.createServer(DefaultJCoIDocServerFactory.java:13)
+	at com.sap.conn.jco.rt.DefaultServerManager.getServer(DefaultServerManager.java:104)
+	at com.sap.conn.jco.rt.StandaloneServerFactory.update(StandaloneServerFactory.java:362)
+	at com.sap.conn.jco.rt.StandaloneServerFactory.getServerInstance(StandaloneServerFactory.java:175)
+	at com.sap.conn.idoc.jco.JCoIDoc.getServer(JCoIDoc.java:322)
+	at IDocServerExample.main(IDocServerExample.java:8)
+
+
+
+**** Error file opened at 20181225 163105 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:31:05,786<    RfcException:
+	message: Connect to message server on host vhcalnplci failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci R3NAME=NPL GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       service 'sapmsNPL' unknown
+TIME        Tue Dec 25 16:31:05 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      niuxi.c
+LINE        1814
+DETAIL      NiPGetServByName: 'sapmsNPL' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 163148 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:31:48,916<    RfcException:
+	message: Connect to message server on host vhcalnplci failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci R3NAME=NPL GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       service 'sapmsNPL' unknown
+TIME        Tue Dec 25 16:31:48 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+MODULE      niuxi.c
+LINE        1814
+DETAIL      NiPGetServByName: 'sapmsNPL' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 163828 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:38:28,568<    RfcException:
+	message: Connect to message server on host vhcalnplci failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci R3NAME=NPL GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       hostname 'vhcalnplci' unknown
+TIME        Tue Dec 25 16:38:28 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'vhcalnplci' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 163916 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:39:16,056<    RfcException:
+	message: Connect to message server on host vhcalnplci failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci R3NAME=NPL GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       hostname 'vhcalnplci' unknown
+TIME        Tue Dec 25 16:39:16 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      niuxi.c
+LINE        1759
+DETAIL      NiPGetHostByName: 'vhcalnplci' not found
+SYSTEM CALL getaddrinfo
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 164130 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:41:30,935<    RfcException:
+	message: Connect to message server on host sap752sp01.southeastasia.cloudapp.azure.com failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=sap752sp01.southeastasia.cloudapp.azure.com R3NAME=NPL GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Tue Dec 25 16:41:30 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 164334 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:43:34,059<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=PUBLIC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Tue Dec 25 16:43:34 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 165157 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:51:57,439<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Tue Dec 25 16:51:57 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 165220 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:52:20,669<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Tue Dec 25 16:52:20 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181225 165555 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:55:55,290<    RfcException:
+	message: Either parameter ABAP system ID ('r3name') or message server service ('msserv') is missing
+	return code: RFC_INVALID_PARAMETER (19)
+	error group: 101
+	key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:293)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1316)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1346)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:704)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:72)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:112)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:433)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:380)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:1094)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:29)
+	at com.sap.conn.jco.rt.RfcDestination.initRepository(RfcDestination.java:1049)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:1193)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at com.sap.conn.jco.rt.DefaultServer.update(DefaultServer.java:220)
+	at com.sap.conn.jco.rt.DefaultServer.<init>(DefaultServer.java:117)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServer.<init>(DefaultJCoIDocServer.java:47)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServerFactory.createServer(DefaultJCoIDocServerFactory.java:17)
+	at com.sap.conn.idoc.jco.rt.DefaultJCoIDocServerFactory.createServer(DefaultJCoIDocServerFactory.java:13)
+	at com.sap.conn.jco.rt.DefaultServerManager.getServer(DefaultServerManager.java:104)
+	at com.sap.conn.jco.rt.StandaloneServerFactory.update(StandaloneServerFactory.java:362)
+	at com.sap.conn.jco.rt.StandaloneServerFactory.getServerInstance(StandaloneServerFactory.java:175)
+	at com.sap.conn.idoc.jco.JCoIDoc.getServer(JCoIDoc.java:322)
+	at IDocServerExample.main(IDocServerExample.java:8)
+
+
+
+**** Error file opened at 20181225 165743 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 16:57:43,144<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Tue Dec 25 16:57:43 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Tue Dec 25 17:04:25,880<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Tue Dec 25 17:04:25 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49533
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Tue Dec 25 17:04:25,924<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Tue Dec 25 17:04:25 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49533
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Tue Dec 25 17:04:25,925<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Tue Dec 25 17:04:25 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49533
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Tue Dec 25 17:04:25,926<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181225 170634 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Tue Dec 25 17:06:34,935<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Tue Dec 25 17:06:34 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181226 114555 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Wed Dec 26 11:45:55,095<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Wed Dec 26 11:45:55 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181226 114806 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Wed Dec 26 11:48:06,990<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Wed Dec 26 11:48:06 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Wed Dec 26 11:54:48,527<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Wed Dec 26 11:54:48 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:59182
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Wed Dec 26 11:54:48,571<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Wed Dec 26 11:54:48 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:59182
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Wed Dec 26 11:54:48,571<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Wed Dec 26 11:54:48 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:59182
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Wed Dec 26 11:54:48,573<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Wed Dec 26 12:01:39,569<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Wed Dec 26 12:01:39 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:63237
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Wed Dec 26 12:01:39,571<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Wed Dec 26 12:01:39 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:63237
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Wed Dec 26 12:01:39,572<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Wed Dec 26 12:01:39 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:63237
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Wed Dec 26 12:01:39,572<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Wed Dec 26 12:03:52,925<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_CANCELLED(23)<
+
+
+
+Error:  >Wed Dec 26 12:03:52,926<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Wed Dec 26 12:03:52,926<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Wed Dec 26 12:03:52,927<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Wed Dec 26 12:04:12,653<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_CANCELLED(23)<
+
+
+
+Error:  >Wed Dec 26 12:04:12,654<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Wed Dec 26 12:04:12,654<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Wed Dec 26 12:04:12,654<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181227 101539 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 10:15:39,456<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 10:15:39 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 135702 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 13:57:02,062<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 13:57:02 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 135738 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 13:57:38,138<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 13:57:38 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 135742 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 13:57:42,373<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 13:57:42 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 135923 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 13:59:23,894<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 13:59:23 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 14:04:30,561<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 14:04:30 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 14:11:05,423<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 14:11:05 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60282
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     8
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Dec 27 14:11:05,433<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 14:11:05 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60282
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     8
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 14:11:05,435<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 14:11:05 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:60282
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     8
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 14:11:05,440<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181227 141438 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 14:14:38,176<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 14:14:38 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 141445 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 14:14:45,173<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 14:14:45 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 141800 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 14:18:00,795<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=SAPNPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 14:18:00 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 14:18:43,916<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=SAPNPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 14:18:43 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 142020 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 14:20:20,613<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 14:20:20 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 14:20:36,718<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 14:20:36 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 142414 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 14:24:14,277<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 14:24:14 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 14:24:36,961<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 14:24:36 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 142606 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 14:26:06,467<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 14:26:06 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 14:26:27,566<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_CANCELLED(23)<
+
+
+
+Error:  >Thu Dec 27 14:26:27,605<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 14:26:27,605<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 14:26:27,606<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Thu Dec 27 14:26:52,700<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 14:26:52 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     8
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 14:28:06,141<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 14:28:06 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     15
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 14:29:51,092<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=RFC PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 14:29:51 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     22
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 150830 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 15:08:30,934<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 15:08:30 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:08:41,153<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 15:08:41 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 151254 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 15:12:54,239<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 15:12:54 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 151905 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 15:19:05,021<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 15:19:04 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:19:42,537<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_CANCELLED(23)<
+
+
+
+Error:  >Thu Dec 27 15:19:42,578<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 15:19:42,578<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 15:19:42,579<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181227 151951 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 15:19:51,790<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 15:19:51 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:22:03,665<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 15:22:03 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:23:08,977<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 15:23:08 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     14
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:23:29,394<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 15:23:29 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     21
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 153012 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 15:30:12,319<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 15:30:12 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:30:25,049<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 15:30:25 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:31:55,434<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 15:31:55 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     14
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:39:51,603<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 15:39:51 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64581
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     15
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Dec 27 15:39:51,605<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 15:39:51 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64581
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     15
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 15:39:51,605<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 15:39:51 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64581
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     15
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 15:39:51,607<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181227 154807 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 15:48:07,579<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 15:48:07 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:49:50,867<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 15:49:50 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:51:06,404<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 15:51:06 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     14
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 15:58:32,250<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 15:58:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64816
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     15
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Dec 27 15:58:32,251<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 15:58:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64816
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     15
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 15:58:32,251<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCOTEST]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 15:58:32 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64816
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     15
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 15:58:32,252<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Thu Dec 27 16:07:04,348<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 16:07:04 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64882
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     16
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Dec 27 16:07:04,350<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 16:07:04 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64882
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     16
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 16:07:04,350<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 16:07:04 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:64882
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     16
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 16:07:04,350<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181227 160832 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 16:08:32,136<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 16:08:32 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:11:09,262<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_CANCELLED(23)<
+
+
+
+Error:  >Thu Dec 27 16:11:09,311<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 16:11:09,311<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 16:11:09,312<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Thu Dec 27 16:15:09,568<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:15:09 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     8
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:25:32,941<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:25:32 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     15
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 163119 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 16:31:19,022<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 16:31:18 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:32:53,596<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:32:53 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:35:15,521<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:35:15 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     14
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:37:00,054<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:37:00 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     21
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:39:17,546<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:39:17 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     28
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:40:16,691<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:40:16 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     35
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:43:34,851<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:43:34 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     42
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:50:27,374<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 16:50:27 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     49
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 16:59:48,191<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 16:59:48 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49215
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     51
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Dec 27 16:59:48,192<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 16:59:48 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49215
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     51
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 16:59:48,192<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 16:59:48 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49215
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     51
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 16:59:48,193<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Thu Dec 27 17:06:24,112<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 17:06:24 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49308
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     52
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Dec 27 17:06:24,114<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 17:06:24 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49308
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     52
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 17:06:24,115<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 17:06:24 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49308
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     52
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 17:06:24,115<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Thu Dec 27 17:13:35,693<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 17:13:35 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49446
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     53
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu Dec 27 17:13:35,694<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 17:13:35 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49446
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     53
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu Dec 27 17:13:35,694<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapmsNPL'
+            broken
+TIME        Thu Dec 27 17:13:35 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:49446
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     53
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Thu Dec 27 17:13:35,695<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181227 172128 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:21:28,232<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:21:28 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 172752 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:27:52,769<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:27:52 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 173141 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:31:41,831<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:31:41 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 173445 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:34:45,104<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:34:45 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 174122 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:41:22,710<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:41:22 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 174157 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:41:57,366<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:41:57 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu Dec 27 17:44:23,813<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+ERROR       internal error
+TIME        Thu Dec 27 17:44:23 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 175341 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:53:41,083<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:53:40 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 175602 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:56:02,459<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:56:02 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 175647 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 17:56:47,548<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 17:56:47 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181227 180642 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu Dec 27 18:06:42,200<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 18:06:41 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 110646 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 11:06:46,080<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Thu Dec 27 18:11:52 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 112714 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 11:27:14,521<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 11:24:22 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 113655 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 11:36:55,794<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sapgw00 R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 11:35:12 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 113956 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 11:39:56,443<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sapgw00 R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 11:38:06 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 114018 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 11:40:18,339<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sapgw00 R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 11:40:18 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 141248 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 14:12:48,828<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sapgw00 GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 11:42:05 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 141342 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 14:13:42,873<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sapgw00 GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 14:13:42 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri Dec 28 14:20:11,257<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:20:11 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55173
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri Dec 28 14:20:11,299<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:20:11 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55173
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Fri Dec 28 14:20:11,299<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:20:11 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55173
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Fri Dec 28 14:20:11,300<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Fri Dec 28 14:33:41,351<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:33:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55273
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri Dec 28 14:33:41,355<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:33:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55273
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Fri Dec 28 14:33:41,355<    RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:33:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55273
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Fri Dec 28 14:33:41,356<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServerWorker.fireServerExceptionOccurred(DefaultServerWorker.java:110)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.abort(MiddlewareJavaRfc.java:2823)
+	at com.sap.conn.jco.rt.DefaultServerWorker.abort(DefaultServerWorker.java:389)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:328)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181228 143545 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 14:35:45,125<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+no SAP ErrInfo available
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 143554 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 14:35:54,641<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sapgw00 GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 14:35:54 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     57
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 143812 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 14:38:12,794<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+no SAP ErrInfo available
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 143817 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 14:38:17,497<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+no SAP ErrInfo available
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 144107 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 14:41:07,682<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+no SAP ErrInfo available
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 144937 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 14:49:37,914<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+no SAP ErrInfo available
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri Dec 28 15:01:11,473<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+no SAP ErrInfo available
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 151231 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 15:12:31,944<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+no SAP ErrInfo available
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri Dec 28 15:15:08,572<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+no SAP ErrInfo available
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 163238 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 16:32:38,336<    RfcException:
+	message: Internal error 1 occurred at processing a request to message server on host vhcalnplci.dummy.nodomain
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sap752sp01.southeastasia.cloudapp.azure.com GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 15:55:44 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     81
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181228 164403 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri Dec 28 16:44:03,582<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sapmsNPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Fri Dec 28 16:44:03 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     21
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181229 151122 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Sat Dec 29 15:11:22,422<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain MSSERV=sapmsNPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Sat Dec 29 15:11:22 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Sat Dec 29 15:11:22,475<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sat Dec 29 15:11:22 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sat Dec 29 15:11:22,477<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Sat Dec 29 15:11:24,478<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sat Dec 29 15:11:24 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sat Dec 29 15:11:24,479<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Sat Dec 29 15:11:26,484<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sat Dec 29 15:11:26 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     6
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sat Dec 29 15:11:26,484<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181229 152201 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Sat Dec 29 15:22:01,025<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Sat Dec 29 15:22:00 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Sat Dec 29 15:22:01,076<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sat Dec 29 15:22:01 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sat Dec 29 15:22:01,079<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Sat Dec 29 15:22:03,064<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sat Dec 29 15:22:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sat Dec 29 15:22:03,065<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181230 153420 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Sun Dec 30 15:34:20,150<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       internal error
+TIME        Sun Dec 30 15:34:20 2018
+RELEASE     721
+COMPONENT   MS (message handling interface, multithreaded)
+VERSION     4
+RC          -101
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Sun Dec 30 15:34:20,190<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sun Dec 30 15:34:20 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sun Dec 30 15:34:20,191<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Sun Dec 30 15:34:22,181<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sun Dec 30 15:34:22 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sun Dec 30 15:34:22,181<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Sun Dec 30 15:34:24,184<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sun Dec 30 15:34:24 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     6
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sun Dec 30 15:34:24,184<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+**** Error file opened at 20181230 212403 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Sun Dec 30 21:24:03,212<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       *** ERROR ***
+TIME        Sun Dec 30 21:19:38 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+DETAIL      NiErrSet
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181230 212512 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Sun Dec 30 21:25:12,079<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       *** ERROR ***
+TIME        Sun Dec 30 21:24:22 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+DETAIL      NiErrSet
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20181230 212538 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Sun Dec 30 21:25:38,518<    RfcException:
+	message: Connect to message server on host vhcalnplci.dummy.nodomain failed
+Connection parameters: TYPE=B DEST=NPL MSHOST=vhcalnplci.dummy.nodomain R3NAME=NPL GROUP=DEFAULT PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host Yang-Zengs-Macccccc.local
+ERROR       *** ERROR ***
+TIME        Sun Dec 30 21:25:34 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+DETAIL      NiErrSet
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Sun Dec 30 21:26:01,281<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sun Dec 30 21:26:01 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sun Dec 30 21:26:01,283<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Sun Dec 30 21:26:04,371<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sun Dec 30 21:26:04 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sun Dec 30 21:26:04,371<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Sun Dec 30 21:26:05,278<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sun Dec 30 21:26:05 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     6
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sun Dec 30 21:26:05,278<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Error:  >Sun Dec 30 21:26:10,836<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=127.0.0.1 GWSERV=sapgw00
+
+ERROR       partner '127.0.0.1:sapgw00' not reached
+TIME        Sun Dec 30 21:26:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 127.0.0.1:3301
+SYSTEM CALL connect
+ERRNO       61
+ERRNO TEXT  Connection refused
+COUNTER     8
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Info:  >Sun Dec 30 21:26:10,838<    Error in MyThrowableListener.serverExceptionOccurred() java.lang.NullPointerException
+	at MyThrowableListener.serverExceptionOccurred(MyThrowableListener.java:15)
+	at com.sap.conn.jco.rt.DefaultServer.fireServerExceptionOccurred(DefaultServer.java:1383)
+	at com.sap.conn.jco.rt.DefaultServer.openConnection(DefaultServer.java:1234)
+	at com.sap.conn.jco.rt.DefaultServer.openConnections(DefaultServer.java:1111)
+	at com.sap.conn.jco.rt.DefaultServer.adjustConnectionCount(DefaultServer.java:1046)
+	at com.sap.conn.jco.rt.DefaultServerManager$ServerController.run(DefaultServerManager.java:382)
+	at java.lang.Thread.run(Thread.java:745)
+
+

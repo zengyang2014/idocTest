@@ -1,0 +1,214 @@
+
+**** Trace file opened at 20181228 142011 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+	>> CPIC native call SAP_CMACCPTP3(2) [17] convid:           14:20:11,254
+	<< CPIC native call SAP_CMACCPTP3(2) [17] convid:          rc: 20  14:20:11,255
+receiveConversationID: SAP_CMACCPTP3(waitTime=2, conv_id=        , niHandle=17) returns: 20
+get_cpic_error :: Error : CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:20:11 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55173
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+>>>> Listen/WaitForRequest (counter = 1)
+Error> ab_rfclisten [1] channel-listen failed with Message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:20:11 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55173
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+
+>>> RfcAbort [1] >Fri Dec 28 14:20:11,261< ...
+
+
+>>>> RfcAbort called by external program ...
+	handle = 1
+	text = COMMUNICATION_FAILURE: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:20:11 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55173
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+
+>>>> [1] <accepted> REG <ac: 2> >>> FLUSH (READ) (        )
+rflush :: Error : (deallocated or broken) Error> ab_rfcflush  channel.wflush failed(1)
+ Message :
+    CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:20:11 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55173
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+>>>> [1] <accepted> REG <ac: 3> >>> ABORT (        )
+>>>> [1] <accepted> REG <ac: 4> >>> CLOSE (        )
+RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:20:11 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55173
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION>>>> [1] <accepted> REG <ac: 5> >>> FREE (        )
+
+**** Trace file opened at 20181228 143341 China Standard Time Rel. 3.0.18 (2018-03-23) [721.1016]
+	>> CPIC native call SAP_CMACCPTP3(2) [18] convid:           14:33:41,350
+	<< CPIC native call SAP_CMACCPTP3(2) [18] convid:          rc: 20  14:33:41,351
+receiveConversationID: SAP_CMACCPTP3(waitTime=2, conv_id=        , niHandle=18) returns: 20
+get_cpic_error :: Error : CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:33:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55273
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+>>>> Listen/WaitForRequest (counter = 1)
+Error> ab_rfclisten [1] channel-listen failed with Message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:33:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55273
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+
+>>> RfcAbort [1] >Fri Dec 28 14:33:41,354< ...
+
+
+>>>> RfcAbort called by external program ...
+	handle = 1
+	text = COMMUNICATION_FAILURE: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:33:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55273
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+
+>>>> [1] <accepted> REG <ac: 2> >>> FLUSH (READ) (        )
+rflush :: Error : (deallocated or broken) Error> ab_rfcflush  channel.wflush failed(1)
+ Message :
+    CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:33:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55273
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+>>>> [1] <accepted> REG <ac: 3> >>> ABORT (        )
+>>>> [1] <accepted> REG <ac: 4> >>> CLOSE (        )
+RfcException raised by system [Yang-Zengs-Macccccc.local|JCO_SERVER]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner 'vhcalnplci.dummy.nodomain:sapgw00'
+            broken
+TIME        Fri Dec 28 14:33:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=13.76.229.211:3300; L=10.209.22.87:55273
+SYSTEM CALL recv
+ERRNO       60
+ERRNO TEXT  Operation timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION>>>> [1] <accepted> REG <ac: 5> >>> FREE (        )
