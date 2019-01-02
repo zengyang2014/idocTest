@@ -1,6 +1,6 @@
 jco.server.connection_count=2
-jco.server.gwhost=127.0.0.1
+jco.server.gwhost=vhcalnplci.dummy.nodomain
 jco.server.progid=JCO_SERVER
 jco.server.gwserv=sapgw00
 jco.server.repository_destination=NPL
-
+jco.server.trace=1
