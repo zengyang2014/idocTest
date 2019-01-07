@@ -1,8 +1,7 @@
 jco.client.client=001
-jco.client.user=TESTID01
-jco.client.passwd=ugj,#_=,%cP*HCki*]`6-0.o.i00_Fm*m-{;`$k)7n:9;D8]
+jco.client.user=
+jco.client.passwd=
 jco.client.lang=en
-jco.client.mshost=vhcalnplci.dummy.nodomain
+jco.client.mshost=13.76.229.211
 jco.client.group=DEFAULT
 jco.client.r3name=NPL
-jco.destination.repository_destination=NPL
