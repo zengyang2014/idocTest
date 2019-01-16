@@ -3,4 +3,4 @@ jco.server.gwhost=13.76.229.211
 jco.server.progid=JCO_SERVER
 jco.server.gwserv=sapgw00
 jco.server.repository_destination=NPL
-jco.server.trace=1
+jco.server.trace=1DestinationDataProvider
