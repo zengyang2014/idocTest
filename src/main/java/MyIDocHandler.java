@@ -17,6 +17,7 @@ class MyIDocHandler implements JCoIDocHandler {
         try {
             IDocXMLProcessor xmlProcessor =
                     JCoIDoc.getIDocFactory().getIDocXMLProcessor();
+            System.out.println("get idoc file:::::" + serverCtx.getTID());
             fos = new FileOutputStream(serverCtx.getTID() + "_idoc.xml");
             osw = new OutputStreamWriter(fos, StandardCharsets.UTF_8);
             xmlProcessor.render(idocList, osw,

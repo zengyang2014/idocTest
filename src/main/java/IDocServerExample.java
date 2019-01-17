@@ -5,6 +5,7 @@ public class IDocServerExample {
     public static void main(String[] a) {
         try {
             // see examples of configuration files MYSERVER.jcoServer and  BCE.jcoDestination provided in the installation directory.
+            CustomDestinationDataProvider.setData("NPL");
             JCoIDocServer server = JCoIDoc.getServer("MYSERVER");
             server.setIDocHandlerFactory(new MyIDocHandlerFactory());
             server.setTIDHandler(new MyTidHandler());

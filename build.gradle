@@ -1,5 +1,5 @@
 group 'com.thoughtworks'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 apply plugin: 'java'
 apply plugin: 'application'
@@ -11,13 +11,20 @@ repositories {
 }
 
 dependencies {
-    compile files('libs/sapidoc3.jar', 'libs/sapjco3.jar')
-
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile fileTree(dir:'libs',include:['*.jar'])
 }
 
 run {
     mainClassName = "IDocServerExample"
-
     systemProperties System.getProperties()
 }
+
+jar {
+    manifest {
+        attributes "Main-Class": "IDocServerExample"
+        attributes "Class-Path": configurations.compile.collect { "${it.name}" }.join(' ')
+    }
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
+}
+
+jar.baseName = 'IdocDemo'
