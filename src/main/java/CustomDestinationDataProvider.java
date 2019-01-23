@@ -93,6 +93,8 @@ public class CustomDestinationDataProvider
         connectProperties.setProperty(DestinationDataProvider.JCO_CLIENT, System.getenv("JCO_CLIENT"));
         connectProperties.setProperty(DestinationDataProvider.JCO_USER,   System.getenv("JCO_USER"));
         connectProperties.setProperty(DestinationDataProvider.JCO_PASSWD, System.getenv("JCO_PASSWD"));
+        connectProperties.setProperty(DestinationDataProvider.JCO_GROUP, System.getenv("JCO_GROUP"));
+        connectProperties.setProperty(DestinationDataProvider.JCO_R3NAME, System.getenv("JCO_R3NAME"));
         connectProperties.setProperty(DestinationDataProvider.JCO_LANG,   System.getenv("JCO_LANG"));
 
         return connectProperties;
